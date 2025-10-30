@@ -1,0 +1,8 @@
+# Bỏ qua mọi file .exe ở mọi thư mục
+*.exe
+*.EXE        # đề phòng tên viết hoa (hoặc dùng *.[eE][xX][eE])
+*.txt
+*.TXT        # đề phòng tên viết hoa (hoặc dùng *.[tT][xX][tT])
+*.bat
+*.BAT        # đề phòng tên viết hoa (hoặc dùng *.[bB][aA][tT])
+/Codeforces/*
