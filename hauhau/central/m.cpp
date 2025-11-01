@@ -40,7 +40,6 @@ int main() {
             if (mask & (1 << i)) gA.push_back(mine[i]);
             else gB.push_back(mine[i]);
         }
-
         vector<int> idA(gA.size()), idB(gB.size());
         for (int i = 0; i < gA.size();i++){
             idA[i] = i;
